@@ -25,11 +25,11 @@ Start with vectors
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/2e167811-ccc0-47e1-8cad-5ceb42e093b2)
 
 
-One important fact here is matrix multiplication, we can multiply a metrix by a vector to get a new vector. what is important here is if we get the inverse of the matrix we can use it to decode the message, or get the original position
+One important fact here is matrix multiplication, we can multiply a metrix by a vector to get a new vector. what is important here is if we get the inverse of the matrix we can use it to decode the message, or get the original position.
 
 Step towards thinking how these concepts can be converted and applied to cryptography. 
 
-Here are the same two dimensional vectors.
+Here are the same two dimensional vectors. On the axis we have 0,26. I have done this so each number can correspond with a letter. a=1,b=2,...z=26. In this 2 dimensional space we could have a vector that would correspond with every 2 letter word. 
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/95f90afd-6be8-4a02-ac62-4658f2004f38)
 
