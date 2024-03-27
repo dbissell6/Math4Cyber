@@ -32,6 +32,11 @@ One important fact here is matrix multiplication, we can multiply a metrix by a 
 
 Above first part is the matrix, second is the vector, 3rd is the result of multiplication. 
 
+very abstract, start plugging in some numbers.
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/8623f8e5-8230-40e9-a81f-67244f665d94)
+
+
 Step towards thinking how these concepts can be converted and applied to cryptography. 
 
 Here are the same two dimensional vectors. On the axis we have 0,26. I have done this so each number can correspond with a letter. a=1,b=2,...z=26. In this 2 dimensional space we could have a vector that would correspond with every 2 letter word. 
