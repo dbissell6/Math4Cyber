@@ -32,3 +32,6 @@ Step towards thinking how these concepts can be converted and applied to cryptog
 Here are the same two dimensional vectors.
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/95f90afd-6be8-4a02-ac62-4658f2004f38)
+
+
+Going up to 3 dimensions. This is the last stages easy to visualize. importnat part to know, is computers can do it for many many more dimesnsions.
