@@ -48,6 +48,10 @@ Thinking back to the vector x matrix.
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/28f3af9d-22ed-478e-a0a7-6b3d18ec5e19)
 
+The nice thing about the mult is that the process is reversable
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/e69b6822-ce67-4bb9-8759-03ce4cce2d9f)
+
 
 Going up to 3 dimensions. This is the last stage that is easy to visualize. importnat part to know, even though we cant visualize more than this, the computations are the same, it makes no difference to the computer.
 
