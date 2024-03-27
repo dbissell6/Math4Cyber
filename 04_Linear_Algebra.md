@@ -75,3 +75,134 @@ As expected we can reverse the process
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/68ae4fc0-e62c-4e4b-a1db-184612187734)
 
+
+It will work for longer strings too
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/649eceb7-25c1-4c0e-887b-dfc7edb58384)
+
+What have we done? We created a encryption mechanism using the principles of linear algebra and matricies. 
+We can pass(matrix multiplication) a message(vector) through a filter(matrix) and get an encoded messege. Becasue we can multiply with the same amount of colums we had to split the vector into checks that matched the number of colums in the matrix. 
+
+In order to decode the encoded message we need to get the inverse of the original matrix. We can multiply this with the encoded message to get the original.(Identity Matrix) 
+
+What cant we do? We instantiated our matrix with seemingly random values, could any values work? no! all 0 in a column or row  will kill us.  
+In order for the matrix to work for encryption the determinant must be non-zero. This should be simple to understand. Anything multiplied by 0 ends up equaling 0. Therefore we cant reverse this. 
+
+1 1
+1 1 
+
+will give us the same issue. the determinate of this matrix is 0 and is said to be singuar. This transformation loses the original distinctiveness of x and y, collapsing any input into a less complex space where x=y. Again a loss of information. 
+
+Anything else?
+
+Matrices with Repeated Rows or Columns
+
+A matrix with repeated rows or columns (e.g., (1212)(11​22​)) is singular and thus not invertible. These matrices fail to span the entire space they're supposed to, limiting their ability to uniquely transform vectors for encryption purposes.
+
+Anything else?
+one or more zeros on its main diagonal
+
+
+the matrix acts like the key in modern day encryption. 
+
+
+<details>
+
+<summary>Python encryption code</summary>
+
+```
+import numpy as np
+
+def string_to_ascii_vector(s):
+    return [ord(c) for c in s]
+
+def ascii_vector_to_string(v):
+    return ''.join(chr(int(round(i))) for i in v)
+
+def encode_chunks(message, matrix):
+    # Ensure message length is even for 2x2 matrix
+    if len(message) % 2 != 0:
+        message += " "  # Padding if necessary
+    
+    encoded_message = []
+    decoded_message = []
+    
+    # Process in chunks matching the matrix size (2 for 2x2 matrix)
+    for i in range(0, len(message), 2):
+        chunk = message[i:i+2]
+        vector = np.array(string_to_ascii_vector(chunk))
+        encoded_vector = np.dot(matrix, vector)
+        encoded_message.extend(encoded_vector)
+        
+    print(f"Original Message in ASCII: {vector}")
+    return encoded_message
+
+# Define matrices
+matrix = [[1, 2], [3, 4]]
+transformation_matrix = np.array(matrix)
+inverse_matrix = np.linalg.inv(transformation_matrix)
+
+# Original message
+original_message = "Vivis{Ghost_In_The_Box}"
+
+# Encode and decode the message
+encoded_message = encode_chunks(original_message, transformation_matrix)
+
+# Convert vectors back to string
+encoded_string = ascii_vector_to_string(encoded_message)
+
+print("")
+print(f"Original Message: {original_message}")
+print("")
+print(f"Matrix: {matrix}")
+print("")
+print(f"Encoded Vector: {encoded_message}")
+
+
+#%%
+
+import numpy as np
+
+def ascii_vector_to_string(v):
+    # Ensure rounding to the nearest int since ASCII values are integers
+    return ''.join(chr(int(round(i))) for i in v)
+
+
+def get_chunks(lst, chunk_size):
+    """Yield successive n-sized chunks from lst."""
+    for i in range(0, len(lst), chunk_size):
+        yield lst[i:i + chunk_size]
+
+
+# Define the inverse of the transformation matrix used for encoding
+# (This would be provided or you'd need to calculate it)
+#matrix = [[1, 2], [3, 4]]
+inverse_matrix = np.linalg.inv(np.array(matrix))
+
+# The encoded vector (split into chunks that match the matrix size)
+# Let's use the vector from your screenshot as an example
+encoded_vector = encoded_message
+
+chunk_size = 2  # Size of the matrix used for encoding
+
+# Get the chunks as a list to use for decoding
+encoded_vector_chunks = list(get_chunks(encoded_vector, chunk_size))
+
+# Decoding each chunk
+decoded_message = ""
+for chunk in encoded_vector_chunks:
+    decoded_vector = np.dot(inverse_matrix, chunk)
+    decoded_message += ascii_vector_to_string(decoded_vector)
+
+print(f"Encoded Message: {encoded_vector}")
+print("")
+print(f"Matrix: {matrix}")
+print("")
+print(f"Inverse Matrix: {inverse_matrix}")
+print("")
+print(f"Decoded Message: {decoded_message}")
+```
+
+</details>
+
+
