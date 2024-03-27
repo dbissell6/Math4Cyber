@@ -66,3 +66,12 @@ Going up to 3 dimensions. This is the last stage that is easy to visualize. impo
 ### Python implementation
 
 Alright we know understand the basic concepts of linear algebra and can see a very basic applciation, lets expand.
+
+In the orginal presentation we used 0-26, that helps make intuitive sense for the mapping. Here we use what the computer knows, ASCII.
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/4adc5398-e80f-4827-adce-88e232b31370)
+
+As expected we can reverse the process
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/68ae4fc0-e62c-4e4b-a1db-184612187734)
+
