@@ -34,4 +34,12 @@ Here are the same two dimensional vectors. On the axis we have 0,26. I have done
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/95f90afd-6be8-4a02-ac62-4658f2004f38)
 
 
-Going up to 3 dimensions. This is the last stages easy to visualize. importnat part to know, is computers can do it for many many more dimesnsions.
+This is proper vector notation. In our case the would be the vectors BE and ME
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/c952f932-6acc-4bb6-988e-f22e707d16a3)
+
+
+Going up to 3 dimensions. This is the last stage that is easy to visualize. importnat part to know, even though we cant visualize more than this, the computations are the same, it makes no difference to the computer.
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/cfca6038-d9f0-4a1c-95d0-213e521d1367)
+
