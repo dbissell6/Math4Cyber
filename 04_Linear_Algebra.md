@@ -57,3 +57,7 @@ Going up to 3 dimensions. This is the last stage that is easy to visualize. impo
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/cfca6038-d9f0-4a1c-95d0-213e521d1367)
 
+
+### Python implementation
+
+Alright we know understand the basic concepts of linear algebra and can see a very basic applciation, lets expand.
