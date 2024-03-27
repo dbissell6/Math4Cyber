@@ -26,20 +26,24 @@ Start with vectors
 
 Above are examples of 2 vectors. They are 2 dimesional, plotted on a 3d space(z = 0). 
 
-One important fact we need to know before moving forward is matrix multiplication, we can multiply a matrix by a vector to get a new vector. What is important here is if we get the inverse of the matrix and multiply it but that new vector, we can get the original vector back.
+One important fact we need to know before moving forward is matrix multiplication, we can multiply a matrix by a vector to get a new vector. 
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/07ebface-effd-4711-8c8d-e90ee46e1bf3)
 
 Above first part is the matrix, second is the vector, 3rd is the result of multiplication. 
 
-very abstract, start plugging in some numbers. Assume we have a vector (2,5)
+Very abstract, start plugging in some numbers and introduce key fact, What is important here is if we get the inverse of the matrix and multiply it but that new vector, we can get the original vector back.
+
+Top row is showing basic muliplication of a vector and matrix resulting in that new vector. Row below is just reversing the process. Another key fact, if we know the og matrix we can calculate its inverse.
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/8623f8e5-8230-40e9-a81f-67244f665d94)
 
 
 Step towards thinking how these concepts can be converted and applied to cryptography. 
 
-Here are the same two dimensional vectors. On the axis we have 0,26. I have done this so each number can correspond with a letter. a=1,b=2,...z=26. In this 2 dimensional space we could have a vector that would correspond with every 2 letter word. 
+Here are the same two dimensional vectors with a bunch more added. The dont have the lines and arrows, but they can be interpreted the same.
+
+On the axis we have 0,26. I have done this so each number can correspond with a letter. a=1,b=2,...z=26. In this 2 dimensional space we could have a vector that would correspond with every 2 letter word. 
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/95f90afd-6be8-4a02-ac62-4658f2004f38)
 
