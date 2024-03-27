@@ -26,13 +26,13 @@ Start with vectors
 
 Above are examples of 2 vectors. They are 2 dimesional, plotted on a 3d space(z = 0). 
 
-One important fact here is matrix multiplication, we can multiply a metrix by a vector to get a new vector. what is important here is if we get the inverse of the matrix we can use it to decode the message, or get the original position.
+One important fact we need to know before moving forward is matrix multiplication, we can multiply a matrix by a vector to get a new vector. What is important here is if we get the inverse of the matrix and multiply it but that new vector, we can get the original vector back.
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/07ebface-effd-4711-8c8d-e90ee46e1bf3)
 
 Above first part is the matrix, second is the vector, 3rd is the result of multiplication. 
 
-very abstract, start plugging in some numbers.
+very abstract, start plugging in some numbers. Assume we have a vector (2,5)
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/8623f8e5-8230-40e9-a81f-67244f665d94)
 
