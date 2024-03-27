@@ -5,5 +5,5 @@
 
 MITs Math bootcamp for engineering, but tailored for cyber security.
 
-```https://courses.mitxonline.mit.edu/learn/course/course-v1:MITxT+10.MBCx+1T2024/home```
+`https://courses.mitxonline.mit.edu/learn/course/course-v1:MITxT+10.MBCx+1T2024/home`
 
