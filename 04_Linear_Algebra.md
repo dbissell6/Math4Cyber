@@ -24,8 +24,13 @@ Start with vectors
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/2e167811-ccc0-47e1-8cad-5ceb42e093b2)
 
+Above are examples of 2 vectors. They are 2 dimesional, plotted on a 3d space(z = 0). 
 
 One important fact here is matrix multiplication, we can multiply a metrix by a vector to get a new vector. what is important here is if we get the inverse of the matrix we can use it to decode the message, or get the original position.
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/07ebface-effd-4711-8c8d-e90ee46e1bf3)
+
+Above first part is the matrix, second is the vector, 3rd is the result of multiplication. 
 
 Step towards thinking how these concepts can be converted and applied to cryptography. 
 
