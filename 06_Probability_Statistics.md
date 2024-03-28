@@ -109,6 +109,8 @@ Imagine our boss wanted to know more about failed login attempts and they gave u
 
 One of the first things we can look at is the variance.
 
+## Variance
+
 Variance measures how much the data points in a dataset are spread out from their average value.
 
 variance - how much a random variable deviates from its own mean.  to get the number we square it to remove the possible of getting a negative value.
@@ -154,6 +156,8 @@ print(f"Variance of login attempts: {calculate_variance(login_attempts)}")
 ```
 
 </details>
+
+## Covariance
 
 What if we wanted to understand how two things interact with each other? For instance say now our boss gives us this data for the past 10 days of failed logins and external ips.
 
@@ -206,6 +210,9 @@ external_ips = [10, 15, 11, 13, 11, 12, 10, 14, 15, 11]
 print(f"Covariance between email traffic and external IPs: {calculate_covariance(email_traffic, external_ips)}")
 ```
 </details>
+
+## Correlation
+
 Correlation assesses the strength and direction of the linear relationship between two variables. It is a dimesnionless quantity in range -1 to 1. Closer +1 strongly positivily correlated, -1 strongly negativly correlated, 0 is no relationship. We can think of correlation as a way to normalize covariance.
 
 Og example with data being 500,50 showing high correlation.
