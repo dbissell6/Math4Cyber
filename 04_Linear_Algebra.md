@@ -19,7 +19,7 @@ A **matrix** is a rectangular array of numbers, symbols, or expressions, arrange
 
 A **linear transformation** is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
 
-3Blue1Brown "Essence of Linear Algebra" `https://youtu.be/fNk_zzaMoSs?si=ZXSooq0jqIq1XweX`
+3Blue1Brown "Essence of Linear Algebra" ```https://youtu.be/fNk_zzaMoSs?si=ZXSooq0jqIq1XweX```
 
 Start with vectors
 
