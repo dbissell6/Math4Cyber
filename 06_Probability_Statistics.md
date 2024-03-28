@@ -205,7 +205,7 @@ email_traffic = [200, 220, 210, 205, 500, 200, 198, 215, 220, 210]
 external_ips = [10, 15, 11, 13, 11, 12, 10, 14, 15, 11]
 print(f"Covariance between email traffic and external IPs: {calculate_covariance(email_traffic, external_ips)}")
 ```
-
+</details>
 Correlation assesses the strength and direction of the linear relationship between two variables. It is a dimesnionless quantity in range -1 to 1. Closer +1 strongly positivily correlated, -1 strongly negativly correlated, 0 is no relationship. We can think of correlation as a way to normalize covariance.
 
 Og example with data being 500,50 showing high correlation.
