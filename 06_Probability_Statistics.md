@@ -213,4 +213,11 @@ Og example with data being 500,50 showing high correlation.
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/36eff89a-dceb-4f54-a2a3-12f405eab127)
 
 
+Mess with the data one more time to create the typical perfect correlation to plot.
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/0b2d8f96-de8e-4bb0-9e69-a6443ddba2cb)
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/45f078b4-7063-497e-a474-b86e078bdde7)
+
+
 
