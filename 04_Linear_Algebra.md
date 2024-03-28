@@ -13,12 +13,13 @@ Network Theory: The analysis of networks, whether they are computer networks, so
 
 ## Definitions
 
-A vector is a mathematical object that has both magnitude and direction.
+A **vector** is a mathematical object that has both magnitude and direction.
 
-A matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×nm×n, where mm is the number of rows, and nn is the number of columns.
+A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×nm×n, where mm is the number of rows, and nn is the number of columns.
 
-A linear transformation is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
+A **linear transformation** is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
 
+3Blue1Brown "Essence of Linear Algebra" `https://youtu.be/fNk_zzaMoSs?si=ZXSooq0jqIq1XweX`
 
 Start with vectors
 
@@ -92,22 +93,28 @@ In order to decode the encoded message we need to get the inverse of the origina
 What cant we do? We instantiated our matrix with seemingly random values, could any values work? no! all 0 in a column or row  will kill us.  
 In order for the matrix to work for encryption the determinant must be non-zero. This should be simple to understand. Anything multiplied by 0 ends up equaling 0. Therefore we cant reverse this. 
 
-1 1
-1 1 
+**Determinant**
 
-will give us the same issue. the determinate of this matrix is 0 and is said to be singuar. This transformation loses the original distinctiveness of x and y, collapsing any input into a less complex space where x=y. Again a loss of information. 
+The **determinant** of a square matrix is a scalar value that reflects the matrix's invertibility, scales areas or volumes under linear transformations, and is crucial in solving linear equations. A non-zero determinant indicates an invertible matrix, while a determinant of zero means the matrix is singular (non-invertible).
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/786c8b8f-cbb4-4fe6-81ae-5435fb01cb87)
+
+Above will give us the same issue. The determinate of this matrix is 0 and is said to be singuar. This transformation loses the original distinctiveness of x and y, collapsing any input into a less complex space where x=y. Again a loss of information. 
 
 Anything else?
 
 Matrices with Repeated Rows or Columns
 
-A matrix with repeated rows or columns (e.g., (1212)(11​22​)) is singular and thus not invertible. These matrices fail to span the entire space they're supposed to, limiting their ability to uniquely transform vectors for encryption purposes.
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/ce9cca56-8309-4600-b9af-5f99903bf55c)
+
+
+A matrix with repeated rows or columns (e.g., above) is singular and thus not invertible. These matrices fail to span the entire space they're supposed to, limiting their ability to uniquely transform vectors for encryption purposes.
 
 Anything else?
 one or more zeros on its main diagonal
 
 
-the matrix acts like the key in modern day encryption. 
+The matrix acts like the key in modern day encryption. 
 
 
 <details>
