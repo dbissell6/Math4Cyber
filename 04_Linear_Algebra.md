@@ -48,12 +48,14 @@ Step towards thinking how these concepts can be converted and applied to cryptog
 Before we apply linear algebra concepts to encryption lets think about a very simple type encryption. Imagine you and a friend want to sent notes to each other but you dont want anyone that intercepts it to be able to read it. You come up with an idea each letter will equal a number a=1,b=2,c=3, so
 
 8,9 = HI
+
 2,25,5 = BYE
 
 Imagine this works for a bit but someone takes the note and is able to decipher the code. So you and your friend decide to 'shift' the numbers by multipling them by a key. you choose the key = 3. You multiply the numbers by the key, what does the person need to do to decrypt it? divide by 3, or multiply by the inverse 1/3.
 
-3*8,3*9 = 24,27 
-3*2,3*25,3*5 = 6,75,25
+`3*8,3*9 = 24,27` 
+
+`3*2,3*25,3*5 = 6,75,25`
 
 Here are the same two dimensional vectors with a bunch more added. The dont have the lines and arrows, but they can be interpreted the same.
 
