@@ -15,7 +15,7 @@ Network Theory: The analysis of networks, whether they are computer networks, so
 
 A **vector** is a mathematical object that has both magnitude and direction.
 
-A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×nm×n, where mm is the number of rows, and nn is the number of columns.
+A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×n m×n, where m is the number of rows, and n is the number of columns.
 
 A **linear transformation** is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
 
@@ -26,6 +26,8 @@ Start with vectors
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/2e167811-ccc0-47e1-8cad-5ceb42e093b2)
 
 Above are examples of 2 vectors. They are 2 dimesional, plotted on a 3d space(z = 0). 
+
+## Multiplication
 
 One important fact we need to know before moving forward is matrix multiplication, we can multiply a matrix by a vector to get a new vector. 
 
