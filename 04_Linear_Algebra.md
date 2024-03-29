@@ -100,6 +100,8 @@ It will work for longer strings too
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/649eceb7-25c1-4c0e-887b-dfc7edb58384)
 
+## Review
+
 What have we done? We created a encryption mechanism using the principles of linear algebra and matricies. 
 We can pass(matrix multiplication) a message(vector) through a filter(matrix) and get an encoded messege. Becasue we can multiply with the same amount of colums we had to split the vector into checks that matched the number of colums in the matrix. 
 
