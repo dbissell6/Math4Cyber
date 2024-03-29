@@ -1,3 +1,5 @@
+# Calculus
+
 Calculus is useful for modeling and understanding dynamics that evolve over time. The two main concepts calculus gives us are derivitaives and integrals.
 
 ## Differential Calculus
