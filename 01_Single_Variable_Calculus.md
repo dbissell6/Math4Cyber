@@ -1,11 +1,18 @@
- Calculus is useful for modeling and understanding dynamics that evolve over time. 
+Calculus is useful for modeling and understanding dynamics that evolve over time. The two main concepts calculus gives us are derivitaives and integrals.
 
- Differential Calculus: This is about derivatives, which tell you how fast things are changing at any point. 
- If you're monitoring a system and see a sudden spike in traffic, differential calculus can help you understand the rate of change and potentially identify malicious processes.
+## Differential Calculus
 
- Integral Calculus: Integrals are, in a way, the opposite of derivatives. They accumulate quantities over time.
- If you're tracking data transfer over a network, integrals can give you the total amount of data moved over a period, which is handy for detecting data exfiltration.
- 
+Differential Calculus: This is about derivatives, which tell you how fast things are changing at any point. 
+If you're monitoring a system and see a sudden spike in traffic, differential calculus can help you understand the rate of change and potentially identify malicious processes.
+
+## Integral Calculus
+
+Integral Calculus: Integrals are, in a way, the opposite of derivatives. They accumulate quantities over time.
+If you're tracking data transfer over a network, integrals can give you the total amount of data moved over a period, which is handy for detecting data exfiltration.
+
+
+## Illustration
+
 Red line (Rate of Change of Traffic Volume Over Time) is the derivative of the traffic volume. It shows the speed of change in the traffic volume at each point in time. Sharp increases (spikes) can indicate a sudden surge in traffic, while sharp decreases (dips) can suggest a sudden drop.
 In cybersecurity, this could indicate potential anomalies like DDoS attacks, breaches, or network interruptions that may warrant further investigation.
 
