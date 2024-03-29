@@ -12,7 +12,7 @@ In cybersecurity, this could indicate potential anomalies like DDoS attacks, bre
 Green line (Cumulative Traffic Volume Over Time) is the practical application of integration to your dataset.
 It's an integral because it represents the sum (integral) of the traffic volume data points over the time period observed.
 
-![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/5fe03a3c-0b94-4bd5-8d88-9849a8d56a5d)
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/d7e853ab-7b95-46ad-b966-ded3d1d0c510)
 
 Together, these plots give a comprehensive picture of network activity, with the ability to identify when high volumes of data are being transferred,
 when significant fluctuations occur, and how much data has been transferred in total over time.
