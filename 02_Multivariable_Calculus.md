@@ -1,4 +1,4 @@
-# Multivariable_Calculus
+# Multivariable Calculus
 
 
 ## Partial Derivatives
