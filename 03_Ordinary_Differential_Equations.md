@@ -1,4 +1,4 @@
-# Ordinary differential equations (ODE)
+# Ordinary Differential Equations (ODE)
 
 In the previous sections, we explored how derivatives help us understand the nuances of change.
 We saw how understanding the rate of change at any given moment can provide invaluable insights into a wide array of problems. 
