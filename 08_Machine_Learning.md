@@ -20,17 +20,25 @@ is compared to the correct answer(For instance, if the machine was being trained
 training takes many examples and each examples answer has to be labled by a person.
 
 
-Inputs Weights -> Summation Activation -> Propagation -> Output -> Back Propogation and weight adjustment
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/8c20555e-294f-484d-806c-175a8f7273c6)
+
+
+To play around with. `https://playground.tensorflow.org/`
+
+Inputs Weights -> Summation Activation -> Propagation -> Output -> Back Propogation and Weight Adjustment
 
 ## Inputs Weights
 
 ## Summation Activation
 
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/16bb0c19-4385-45a9-a6c3-0ccbfad12236)
+
+
 ## Propagation
 
 ## Output
 
-The output can be thought of as the algoritms answer, or response. 
+The output can be thought of as the algorithms answer, or response. 
 
 ## Back Propogation and Weight Adjustment
 
