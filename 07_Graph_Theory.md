@@ -10,7 +10,11 @@ Groups - graph built on linear algebra concepts allows us to look at relationshi
 
 Networking. Looking at something like how resilient a network is can be done by graph. 
 
-2 kinds of objects, nodes (The objects) and edge(the relationships to of one node to another).
+2 kinds of objects, nodes (The objects) and edge(the relationships to of one node to another). I like to think of graph as Nodes are nouns, (edges)verticies are verbs. Nodes are the things and edges are the relationshsips between the things. 
+
+Simple example of 4 nodes and 3 edges
+
+![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/e46d85f0-156c-428c-a83f-aaaabcc6315c)
 
 ## Nodes
 
