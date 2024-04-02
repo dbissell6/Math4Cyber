@@ -3,8 +3,8 @@
 
 # Math4Cyber
 
-Welcome to Math4Cyber—your mathematical compass for navigating the cybersecurity landscape! This repository is designed to bridge the gap between theoretical math and practical cyber applications. It's perfect for new cyber security enthusiasts who want to understand not just the "how" but also the "why" behind the math that powers the domain of cybersecurity. This repo serves as a guided journey through the realms of calculus, algebra, graph theory, culminating in machine learning.
-
+Welcome to Math4Cyber — This repository is designed to bridge the gap between theoretical math and practical cyber applications. A guided journey through the realms of calculus, algebra, graph theory, culminating in machine learning.
+It's perfect for new cyber security enthusiasts who want to understand not just the "how" but also the "why" behind the math that powers the domain of cybersecurity. 
 
 ## Structure
 
