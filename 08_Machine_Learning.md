@@ -19,7 +19,7 @@ Machine learnings first couple steps are the same as using most functions. There
 is compared to the correct answer(For instance, if the machine was being trained to guess a picture of a cat or dog, after it said cat, it would be compared to the answer for the photo. This is a problem with kind of learning,
 training takes many examples and each examples answer has to be labled by a person.
 
-```Inputs Weights -> Summation Activation -> Propagation -> Output -> Back Propogation and Weight Adjustment```
+```Inputs Weights -> Summation Activation -> Propagation -> Output -> Backpropogation and Weight Adjustment```
 
 ![image](https://github.com/dbissell6/Math4Cyber/assets/50979196/8c20555e-294f-484d-806c-175a8f7273c6)
 
