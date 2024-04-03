@@ -1,6 +1,10 @@
 # Intro
 
+<img width="693" alt="Screen Shot 2024-04-03 at 12 50 17 PM" src="https://github.com/dbissell6/Math4Cyber/assets/50979196/f032f447-a2f4-45ef-bed2-72e230db5f5e">
+
+
 Many find probability more familiar than linear algebra, which allows us to dive into definitions more comfortably, as they might not seem as foreign.
+
 # Definitions
 
 Probability Theory: The quantitative analysis of random processes.
