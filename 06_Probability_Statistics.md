@@ -7,11 +7,14 @@ Many find probability more familiar than linear algebra, which allows us to dive
 
 # Definitions
 
-Probability Theory: The quantitative analysis of random processes.
+### Probability Theory: The quantitative analysis of random processes.
 
 Sample Space: The complete set of all possible outcomes.
 
 A coin flip has 2 possible outcomes.
+
+<img width="686" alt="Screen Shot 2024-04-03 at 1 07 13 PM" src="https://github.com/dbissell6/Math4Cyber/assets/50979196/957d5f95-b3e3-4189-b442-be29fcc97dbd">
+
 Rolling dice has 6 possible outcomes.
 
 A molecule in a box would be set of all possible positions of the molecule in the box.
