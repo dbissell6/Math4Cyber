@@ -12,6 +12,11 @@ The first 6 lessons align with MITs Math bootcamp for engineering. It just felt 
 
 `https://courses.mitxonline.mit.edu/learn/course/course-v1:MITxT+10.MBCx+1T2024/home`
 
+
+Extra resources for Python + Data Science
+```
+https://github.com/jakevdp/PythonDataScienceHandbook
+```
 ## Cyber Examples with Python
 
 Each section comes alive with Python examples, providing hands-on experience to see the math in action. We'll work through simulations and analyses that reflect actual cyber security challenges—because the best way to learn math is by applying it to problems you're passionate about solving.
