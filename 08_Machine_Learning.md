@@ -60,6 +60,10 @@ Softmax: Used in the output layer for multi-class classification tasks. It conve
 
 The output can be thought of as the algorithms answer, or response. 
 
+### Regression
+
+### Classification
+
 ## Backpropogation and Weight Adjustment
 
 Imagine backpropagation as the neural network’s moment of self-reflection, where it looks back at its predictions to understand its mistakes. It's the mechanism by which neural networks learn from the error in their predictions. This process involves calculating the gradient (or change) of the loss function with respect to each weight in the network by tracing back from the output layer to the input layer.
