@@ -13,11 +13,11 @@ Network Theory: The analysis of networks, whether they are computer networks, so
 
 ## Definitions
 
-A **vector** is a mathematical object that has both magnitude and direction.
+A `vector` is a mathematical object that has both magnitude and direction.
 
-A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×n m×n, where m is the number of rows, and n is the number of columns.
+A `matrix` is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used to perform linear transformations, solve systems of linear equations, and represent data. Each number in a matrix is called an element. The size of a matrix is defined by its number of rows and columns, often referred to as m×n m×n, where m is the number of rows, and n is the number of columns.
 
-A **linear transformation** is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
+A `linear transformation` is a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication. Essentially, if you apply a linear transformation to a vector, its direction and/or magnitude are changed in a way that is consistent and predictable across the space. Linear transformations can be represented by matrices, making the connection between these concepts very direct.
 
 3Blue1Brown "Essence of Linear Algebra" ```https://youtu.be/fNk_zzaMoSs?si=ZXSooq0jqIq1XweX```
 
