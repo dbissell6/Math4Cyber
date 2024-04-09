@@ -46,7 +46,7 @@ Here is the activation part.
 
 Some actual activation functions that are used.
 
-ReLU (Rectified Linear Unit): Popular for its simplicity and efficiency. It outputs the input directly if it is positive; otherwise, it outputs zero. It's widely used in hidden layers because it helps with faster training and reducing the likelihood of vanishing gradients.
+`ReLU (Rectified Linear Unit)`: Popular for its simplicity and efficiency. It outputs the input directly if it is positive; otherwise, it outputs zero. It's widely used in hidden layers because it helps with faster training and reducing the likelihood of vanishing gradients.
 
 `Tanh (Hyperbolic Tangent)`: Similar to sigmoid but outputs values between -1 and 1. It's useful for tasks where negative outputs are meaningful.
 
