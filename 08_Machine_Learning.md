@@ -35,7 +35,7 @@ Bayesian models are based on Bayes' Theorem, which describes the probability of 
 
 Neural Networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling, or raw input processing. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text, or time series, must be translated.
 
-## The Neural Network Flow
+### The Neural Network Flow
 
 ```Inputs Weights -> Summation Activation -> Propagation -> Output -> Backpropogation and Weight Adjustment```
 
@@ -46,9 +46,9 @@ To play around with. `https://playground.tensorflow.org/`
 
 
 
-## Inputs Weights
+### Inputs Weights
 
-## Summation Activation
+### Summation Activation
 
 2 steps here. Get the sum from the edges coming into the neruon(node). Determine if they pass a threshold. 
 This activation aspect is crucial as it allows non linearity into the network.
@@ -72,21 +72,21 @@ Some actual activation functions that are used.
 
 `Softmax`: Used in the output layer for multi-class classification tasks. It converts logits to probabilities by taking the exponential of each output and then normalizing these values by dividing by the sum of all the exponentials.
 
-## Propagation
+### Propagation
 
-## Output
+### Output
 
 The output can be thought of as the algorithms answer, or response. 
 
-### Regression
+#### Regression
 
-### Classification
+#### Classification
 
-## Backpropogation and Weight Adjustment
+### Backpropogation and Weight Adjustment
 
 Imagine backpropagation as the neural network’s moment of self-reflection, where it looks back at its predictions to understand its mistakes. It's the mechanism by which neural networks learn from the error in their predictions. This process involves calculating the gradient (or change) of the loss function with respect to each weight in the network by tracing back from the output layer to the input layer.
 
-### Optimizers
+#### Optimizers
 
 Optimizers are the navigators of your neural network, steering the learning process by adjusting weights to minimize the loss function. They determine how quickly or slowly a network learns.
 
@@ -96,7 +96,7 @@ Optimizers are the navigators of your neural network, steering the learning proc
 
 `Adam (Adaptive Moment Estimation)`: Combines the best properties of two other extensions of SGD, AdaGrad and RMSProp, to handle sparse gradients on noisy problems. It's known for being efficient and effective across a wide range of tasks.
 
-### Loss Functions
+#### Loss Functions
 
 `Loss functions` are the compasses of neural networks, they guide the optimizer by indicating the direction to take to improve model performance.
 
