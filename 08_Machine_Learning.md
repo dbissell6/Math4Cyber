@@ -2,22 +2,40 @@
 
 It really doesnt need an intro, you have heard about it everyday. AI is here to replace you. But how exactly does it do it?
 
-## Types of machine learning
+# Types of machine learning
 
 When we teach a machine we typically do so in 3 ways. 
 
-1) Supervised Learning
+1) Supervised Learning 
 
 2) Unsupervised Learning
 
 3) Reinforcement Learning
 
 
-## The flow
+The big distinction between supervised learning and unsupervised learning is the target. I supervised learning someone must go through all of the training data and label the or thing the model is trying to predict. For instance to train a model to determine if an image was that of a cat or dog, we would have to use a supervised learning and someone would have to go through every image and label if it was a cat or dog. 
 
-Machine learnings first couple steps are the same as using most functions. There is an input, the function functions, there is an output. In machine leanring, during the training phase, the machine output
-is compared to the correct answer(For instance, if the machine was being trained to guess a picture of a cat or dog, after it said cat, it would be compared to the answer for the photo. This is a problem with kind of learning,
-training takes many examples and each examples answer has to be labled by a person.
+Unsupervised learning is different in that it will create groups for you. 
+
+Finally reinforement learning is good for scenerios like games. This model works by taking action and if the reward is increased, the model 'remembers that' (state,action). The easiest thing to imagine is a videogame score. 
+
+# Types of models
+
+## Decision Trees
+
+Decision Trees are a type of supervised learning algorithm that can be used for both classification and regression tasks. They work by breaking down a dataset into smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node has two or more branches, each representing values for the attribute tested. Leaf nodes represent a classification or decision. The topmost decision node in a tree corresponds to the best predictor called root node. Decision trees can handle both categorical and numerical data and are simple to understand and interpret.
+
+
+## Bayesian models 
+
+Bayesian models are based on Bayes' Theorem, which describes the probability of an event, based on prior knowledge of conditions that might be related to the event. These models are used for a wide range of tasks including classification, regression, and prediction. Bayesian models are particularly known for their ability to provide probabilistic predictions, which means they can tell you how confident they are about their predictions. They are incredibly useful in scenarios where the data is incomplete or uncertain, as they can incorporate prior knowledge into the model. They can adaptively update themselves with new evidence, making them very flexible.
+
+
+## Neural Networks (NN)
+
+Neural Networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling, or raw input processing. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text, or time series, must be translated.
+
+## The Neural Network Flow
 
 ```Inputs Weights -> Summation Activation -> Propagation -> Output -> Backpropogation and Weight Adjustment```
 
@@ -74,9 +92,9 @@ Optimizers are the navigators of your neural network, steering the learning proc
 
 `SGD (Stochastic Gradient Descent)`: A classic, simple optimizer that updates parameters in the opposite direction of the gradient. It's robust but can be slow and less efficient on complex landscapes.
 
-Adam (Adaptive Moment Estimation): Combines the best properties of two other extensions of SGD, AdaGrad and RMSProp, to handle sparse gradients on noisy problems. It's known for being efficient and effective across a wide range of tasks.
+`RMSprop (Root Mean Square Propagation)`: Modifies SGD by dividing the gradient by a running average of its recent magnitude, helping to resolve the vanishing or exploding gradient problems.
 
-RMSprop (Root Mean Square Propagation): Modifies SGD by dividing the gradient by a running average of its recent magnitude, helping to resolve the vanishing or exploding gradient problems.
+`Adam (Adaptive Moment Estimation)`: Combines the best properties of two other extensions of SGD, AdaGrad and RMSProp, to handle sparse gradients on noisy problems. It's known for being efficient and effective across a wide range of tasks.
 
 ### Loss Functions
 
