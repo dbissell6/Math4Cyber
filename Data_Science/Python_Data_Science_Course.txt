@@ -1,0 +1,267 @@
+Before we begin, we want to remind you that it is expected that students have Python and an integrated development environment (IDE) installed on their computer. We recommend using Spyder with Anaconda, as it is a popular choice for data science work. If students have not installed Python or an IDE yet, they can find the Anaconda distribution online by visiting the website and downloading the appropriate version for their operating system.
+
+Here are some helpful resources that can guide students through the installation process:
+
+    Installing Anaconda: https://docs.anaconda.com/anaconda/install/
+
+##############
+
+Day 1-2:
+
+    Introduction to Python and its applications in data science
+    Python data types, variables, and operators
+    Working with data: data structures (lists, tuples, dictionaries)
+    Control statements (if, else, for, while)
+    Functions in Python
+    
+
+Day 2-3:
+
+    Introduction to Pandas library for data manipulation
+    Data cleaning and preprocessing using Pandas
+    Exploratory data analysis (EDA) using Pandas and Matplotlib
+    Statistical analysis using Python (NumPy, SciPy)
+    
+
+Day 3-4:
+
+    Introduction to machine learning and its applications in data science
+    Machine learning fundamentals: regression, classification, clustering
+    Building and evaluating machine learning models using Scikit-learn
+    Dimensionality reduction techniques (PCA, t-SNE)
+    Feature engineering for machine learning
+    Model selection and hyperparameter tuning
+
+
+
+
+############## Day 1 ################
+
+    Introduction to Python and its applications in data science:
+
+    Python is a high-level, interpreted programming language widely used in data science and machine learning.
+    Python has a simple syntax and a vast library of modules, making it a popular choice for data analysis and visualization.
+    Some popular libraries for data science in Python include NumPy, Pandas, Matplotlib, and Scikit-Learn.
+
+    Python data types, variables, and operators:
+
+    In Python, everything is an object, and each object has a type.
+    Some common data types in Python include integers, floats, strings, and booleans.
+    Variables are used to store data in Python, and they can be assigned values using the = operator.
+    Python has a wide range of operators for performing arithmetic, logical, and comparison operations.
+
+    Working with data: reading and writing files, data structures (lists, tuples, dictionaries):
+
+    Data structures are used to store and organize data in Python.
+    Lists are used to store a collection of items in a specific order, while tuples are similar to lists but are immutable.
+    Dictionaries are used to store key-value pairs.
+    Python provides several methods for reading and writing data to files, including the open() function and the csv module.
+
+    Control statements (if, else, for, while):
+
+    Control statements allow us to alter the flow of a program based on certain conditions.
+    The if statement is used to execute a block of code if a certain condition is true.
+    The else statement is used to execute a block of code if the condition in the if statement is false.
+    The for loop is used to iterate over a sequence of values, while the while loop is used to execute a block of code repeatedly as long as a certain condition is true.
+
+    Functions in Python:
+
+    Functions are reusable blocks of code that perform a specific task.
+    In Python, functions are defined using the def keyword, followed by the function name and its parameters.
+    Functions can return a value using the return statement.
+
+
+Some questions to gauge understanding:
+
+    What is Python, and why is it popular in data science?
+    What are some common data types in Python?
+    How do you define a function in Python?
+    What is the difference between a for loop and a while loop?
+    How do you read and write data to a file in Python?
+
+
+    Write a function in Python that takes an integer n as input and returns a list of the first n even numbers.
+
+    Sample input: 5
+    Sample output: [0, 2, 4, 6, 8]
+
+    Write a for loop in Python that prints the first 10 odd numbers in reverse order.
+
+    Sample output: 19 17 15 13 11 9 7 5 3 1
+
+    Write a function in Python that takes two lists of integers as input and returns the larger of the two numbers at each index.
+
+    Sample input: [3, 7, 5], [9, 2, 8]
+    Sample output: [9, 7, 8]
+
+    Write a function in Python that takes a list of integers as input and returns the sum of all the even numbers in the list.
+
+    Sample input: [1, 2, 3, 4, 5, 6]
+    Sample output: 12
+
+    Write a function in Python that takes a string as input and returns the number of vowels in the string.
+
+    Sample input: "hello world"
+    Sample output: 3
+
+    Write a function in Python that takes a list of integers as input and returns a new list containing only the numbers that are divisible by 3.
+
+    Sample input: [1, 3, 5, 6, 9, 10, 12]
+    Sample output: [3, 6, 9, 12]
+
+    Write a function in Python that takes a list of strings as input and returns a new list containing only the strings that start with a vowel.
+
+    Sample input: ["apple", "banana", "orange", "pear", "kiwi"]
+    Sample output: ["apple", "orange"]
+
+def starts_with_vowel(word):
+    vowels = "aeiouAEIOU"
+    return word[0] in vowels
+
+fruits = ["apple", "banana", "orange", "kiwi", "grape", "pear", "pineapple"]
+
+for fruit in fruits:
+    if starts_with_vowel(fruit):
+        print(f"{fruit} starts with a vowel.")
+    else:
+        print(f"{fruit} does not start with a vowel.")
+
+
+
+    Write a function in Python that takes two strings as input and returns True if the strings are anagrams (i.e., contain the same letters in a different order) and False otherwise.
+
+    Sample input: "listen", "silent"
+    Sample output: True
+
+    Write a function in Python that takes a list of numbers as input and returns the median of the numbers (i.e., the middle number when the list is sorted).
+
+    Sample input: [1, 5, 3, 7, 9]
+    Sample output: 5
+
+    Write a function in Python that takes a list of integers as input and returns True if the list is sorted in non-decreasing order (i.e., each element is greater than or equal to the previous element) and False otherwise.
+
+    Sample input: [1, 3, 5, 5, 7, 9]
+    Sample output: True
+
+
+############ Day 2 ##############
+
+Introduction to Pandas library for data manipulation:
+
+    Introduction to the Pandas library
+    Pandas data structures: Series and DataFrame
+    Reading and writing data using Pandas
+    Basic data manipulation with Pandas
+
+Sample problems/questions:
+
+    Create a Pandas DataFrame from a dictionary of lists
+    Load a CSV file into a Pandas DataFrame
+    Select specific rows and columns from a Pandas DataFrame
+    Add a new column to a Pandas DataFrame
+    Group and aggregate data in a Pandas DataFrame
+
+Data cleaning and preprocessing using Pandas:
+
+    Handling missing values
+    Data type conversion
+    Handling duplicates and outliers
+    Data normalization and scaling
+
+Sample problems/questions:
+
+    Remove rows with missing values from a Pandas DataFrame
+    Convert a column of strings to numeric values in a Pandas DataFrame
+    Detect and remove duplicate rows in a Pandas DataFrame
+    Detect and remove outliers from a Pandas DataFrame
+    Normalize a column of numeric values in a Pandas DataFrame
+
+Exploratory data analysis (EDA) using Pandas and Matplotlib:
+
+    Basic descriptive statistics
+    Visualization with Matplotlib
+    Correlation analysis
+    Hypothesis testing
+
+Sample problems/questions:
+
+    Calculate the mean, median, and standard deviation of a column in a Pandas DataFrame
+    Create a histogram and box plot of a column in a Pandas DataFrame using Matplotlib
+    Calculate the correlation between two columns in a Pandas DataFrame
+    Perform a t-test on two groups of data in a Pandas DataFrame
+
+Statistical analysis using Python (NumPy, SciPy):
+
+    Introduction to NumPy library
+    Array manipulation with NumPy
+    Basic statistical functions with NumPy
+    Introduction to SciPy library
+    Hypothesis testing with SciPy
+
+Sample problems/questions:
+
+    Create a NumPy array from a Python list
+    Reshape a NumPy array
+    Calculate the mean and standard deviation of a NumPy array
+    Perform a chi-squared test with SciPy
+
+
+########## Day 3 #############
+
+    Introduction to machine learning and its applications in data science:
+
+    What is machine learning?
+    Why is it important in data science?
+    Overview of machine learning applications in industry and academia.
+
+    Machine learning fundamentals: regression, classification, clustering:
+
+    What are the main types of machine learning problems?
+    Introduction to regression, classification, and clustering.
+    Example use cases for each type of problem.
+
+Sample problem:
+
+    Given a dataset of student test scores and demographic information, use regression to predict a student's final grade based on their test scores and background.
+
+    Building and evaluating machine learning models using Scikit-learn:
+
+    Introduction to Scikit-learn, a popular Python library for machine learning.
+    Overview of the machine learning workflow with Scikit-learn.
+    Common machine learning algorithms available in Scikit-learn.
+
+Sample problem:
+
+    Use Scikit-learn to build and evaluate a classification model to predict whether a customer will purchase a product based on their demographic information and past purchase history.
+
+    Dimensionality reduction techniques (PCA, t-SNE):
+
+    What is dimensionality reduction and why is it important?
+    Introduction to PCA (Principal Component Analysis) and t-SNE (t-Distributed Stochastic Neighbor Embedding).
+    Use cases for each technique.
+
+Sample problem:
+
+    Given a dataset of images, use PCA to reduce the dimensionality of the data and visualize the results in a 2D scatterplot.
+
+    Feature engineering for machine learning:
+
+    What is feature engineering and why is it important?
+    Overview of common feature engineering techniques.
+    How to select and engineer features for a specific machine learning problem.
+
+Sample problem:
+
+    Given a dataset of job applicants, engineer features based on their education, work experience, and skills to build a regression model to predict their expected salary.
+
+    Model selection and hyperparameter tuning:
+
+    Introduction to model selection and hyperparameter tuning.
+    Overview of common techniques for model selection and hyperparameter tuning.
+    How to use cross-validation to evaluate and compare different models.
+
+Sample problem:
+
+    Given a dataset of medical records, compare the performance of several classification models using cross-validation and hyperparameter tuning to select the best model for predicting the presence of a disease.
+
+
