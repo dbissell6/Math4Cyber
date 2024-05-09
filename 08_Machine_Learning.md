@@ -25,6 +25,35 @@ Finally reinforement learning is good for scenerios like games. This model works
 
 Decision Trees are a type of supervised learning algorithm that can be used for both classification and regression tasks. They work by breaking down a dataset into smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node has two or more branches, each representing values for the attribute tested. Leaf nodes represent a classification or decision. The topmost decision node in a tree corresponds to the best predictor called root node. Decision trees can handle both categorical and numerical data and are simple to understand and interpret.
 
+<img width="252" alt="Screen Shot 2024-05-09 at 9 49 33 AM" src="https://github.com/dbissell6/Math4Cyber/assets/50979196/da4e6aa5-2b30-45bc-b9ab-70f77d9b442d">
+
+## Random Forests
+
+A Random Forest is an ensemble learning technique that builds on the simplicity of decision trees and enhances their performance and accuracy. It consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest predicts the outcome (class or value), and the class with the most votes becomes the model’s prediction. Random Forests also help to reduce overfitting.
+
+## Gradient Boosting
+
+Gradient Boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage-wise fashion like other boosting methods do, but it generalizes them by allowing optimization of an arbitrary differentiable loss function.
+
+`Sequential Building`: Unlike Random Forests, which build trees in parallel, gradient boosting builds one tree at a time. Each new tree helps to correct errors made by previously trained trees.
+
+`Loss Function Optimization`: Each tree is trained using the gradient (hence the name) of the loss function, which measures how well the model predicts the training data. By focusing on minimizing the loss, gradient boosting systematically improves the model's performance.
+
+`Flexibility`: It can be used with different loss functions and hence can be adapted for various prediction problems, including both regression and classification tasks.
+
+## XGBoost (Extreme Gradient Boosting)
+
+XGBoost is an implementation of gradient boosted decision trees designed for speed and performance. It has become one of the dominant machine learning algorithms in competitive machine learning because of its efficiency at handling large datasets and its effectiveness across a wide range of predictive tasks.
+
+`Efficiency at Scale`: XGBoost is specifically designed to be efficient with large datasets, utilizing both hardware optimization and software improvements.
+
+`Regularization`: It includes L1 and L2 regularization, which improves model generalization capabilities and helps to prevent overfitting.
+
+`Handling Missing Values`: XGBoost has an in-built routine to handle missing data. When the model encounters a missing value at a node, it uses a default direction to decide the split based on what was learned during the training.
+
+`Tree Pruning`: Unlike traditional gradient boosting, which stops growing trees when they reach a maximum depth, XGBoost grows the tree up to a maximum depth and then prunes it back to minimize the loss, potentially removing unnecessary splits.
+
+`Built-in Cross-Validation`: XGBoost allows users to run a cross-validation at each iteration of the boosting process, making it easy to obtain accurate models that do not overfit the training data.
 
 # Bayesian models 
 
@@ -34,6 +63,35 @@ Bayesian models are based on Bayes' Theorem, which describes the probability of 
 # Neural Networks (NN)
 
 Neural Networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling, or raw input processing. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text, or time series, must be translated.
+
+## Components of a Neuron
+
+Neural Networks are non-linear models. This non-linearity arises primarily from the activation functions used in the neurons of the network.
+
+### Inputs
+
+These are the data points fed into the neuron. Each input will have an associated weight, reflecting the importance or strength of the input in determining the output.
+
+### Weights
+
+Weights are parameters that are learned during the training of the network. They scale the input data, amplifying or dampening the effect of inputs based on their relevance to the task.
+
+### Bias 
+
+Bias allows the activation function to be shifted to the left or right, which can be critical for learning complex patterns.
+
+### Summation Function
+
+This function sums up all the inputs multiplied by their respective weights and adds the bias. This sum is then passed to the activation function. It's often just a simple weighted sum.
+
+### Activation Function
+
+This function takes the output of the summation function and applies a non-linear transformation, deciding how much and whether the signal should proceed further through the network.
+
+### Output
+
+The final output of the neuron after the activation function has been applied. This output can then be used as an input for subsequent layers in a neural network or as the final output for the last layer depending on the architecture.
+
 
 ## The Neural Network Flow
 
@@ -84,6 +142,8 @@ The output can be thought of as the algorithms answer, or response.
 
 ## Backpropogation and Weight Adjustment
 
+Backpropgation consists of two passes, the forward pass and backward pass.
+
 Imagine backpropagation as the neural network’s moment of self-reflection, where it looks back at its predictions to understand its mistakes. It's the mechanism by which neural networks learn from the error in their predictions. This process involves calculating the gradient (or change) of the loss function with respect to each weight in the network by tracing back from the output layer to the input layer.
 
 ### Optimizers
@@ -105,3 +165,18 @@ Optimizers are the navigators of your neural network, steering the learning proc
 `Cross-Entropy Loss`: Preferred for classification problems. It measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.
 
 `Binary Cross-Entropy`: A special case of cross-entropy loss for binary classification tasks.
+
+
+# Additional concerns
+
+We typically say the model overfits the data if the model predicts accurately on the training dataset but doesn’t generalize well to other test examples, that is, if the training error is small but the test error is large. We say the model underfits the data if the training error is relatively large.
+
+Overftting is typically a result of using too complex models, and we need to choose a proper model complexity to achieve the optimal bias-variance tradeoff. Regularization is 
+used to control the complexity and minimize overfitting.
+
+
+
+
+
+
+
