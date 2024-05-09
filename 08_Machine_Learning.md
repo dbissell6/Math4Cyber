@@ -93,7 +93,7 @@ This function takes the output of the summation function and applies a non-linea
 The final output of the neuron after the activation function has been applied. This output can then be used as an input for subsequent layers in a neural network or as the final output for the last layer depending on the architecture.
 
 
-## The Neural Network Flow
+# The Neural Network Flow
 
 ```Inputs Weights -> Summation Activation -> Propagation -> Output -> Backpropogation and Weight Adjustment```
 
